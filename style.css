@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+   background-image:url(./img/bg.png) ;
+   
+}
+header{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+   width: 150px;
+   margin:10px ;
+   padding: 10px;
+}
+ul{
+    list-style: none;
+    margin: 20px;
+   
+    display: flex;
+  
+font-size: 20px;
+
+
+}
+ul li {
+    margin: 40px;
+
+}
+ul li a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: white;
+}
+ul li a:hover{
+    color: #d09547;
+}
+#main{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   width: 100%;
+} 
+#cont{
+    width: 60%;
+    margin: 20px;
+
+}
+#img_main{
+    width: 50%;
+    height: 100%;
+    
+}
+#cont h1{
+    
+    color: #d09547;
+    font-size: 45px;
+    font-style: italic;
+    text-transform: uppercase;
+    
+}
+#cont p{
+    margin: 15px 0;
+    color: white;
+    font-size: 20px;
+    width: 50%;
+}
+#cont button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: #d09547;
+    color: white;
+    border-radius: 15px;
+    font-style: italic;
+    margin: 10px 40px;
+    cursor: pointer;
+}
+#cont button:hover{
+    background: transparent;
+    border: white solid 2px;
+    transition: 0.5s;
+}
+#AboutUs{
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#AboutUs img{
+    width: 40%;
+    height: 50vh;
+    padding: 20px;
+    margin: 10px;
+ 
+}
+#about h2{
+font-size: 35px;
+text-align: center;
+margin-bottom: 40px;
+text-transform: capitalize;
+}
+#about h2 span{
+    color: #d09547;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+#about p{
+    font-size: 20px;
+    margin: 20px;
+
+}
+#about button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+   background:black;
+    color: white;
+    border-radius: 15px;
+    font-style: italic;
+    margin: 10px 40px;
+    cursor: pointer;
+    border: none;
+}
+
+#about button:hover{
+     background-color: #d09547;
+     transition: 0.5s;
+}
+#Products{
+    background: #f5deb3b5;
+
+}
+#par{
+margin: 10px 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+}
+#box{
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0.5rem;
+    box-shadow:5px 5px 20px #222;
+    width: 30%;
+    margin: 10px 10px;
+    border-radius: 15px;
+   
+    
+}
+#par img{
+    width: 70%;
+    height: 250px;
+    object-fit: contain;
+    object-position: center;
+    padding: 20px;
+    
+    
+    
+}
+#Products h1{
+    color: black;
+    font-size: 45px;
+    font-style: italic;
+    text-transform: capitalize;
+    text-align: center;
+ letter-spacing: 2px;
+    margin-bottom: 60px;
+}
+#box h3  {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-style: italic;
+    text-transform: capitalize;
+    color: black;
+    letter-spacing: 1px;
+}
+#cc{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: 10px 0;
+}
+#cc button{
+    margin: 0 10px;
+  width: 120px;
+  height: 30px;
+  font-size: 18px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+
+}
+#cc button:hover{
+    background: #d09547;
+    color: black;
+    transition: 0.3s;
+}
+#cc span{
+    font-size: larger;
+    font-weight: bold;
+    margin: 0 0 0 10px;
+}
+#Coustemrs{
+    background: rgba(245, 222, 179, 0.789);
+  height: 80vh;
+
+
+}
+#kk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ margin-top: 100px;
+    
+}
+#ff{
+    width: 335px;
+    box-shadow:5px 5px 20px #222;
+    height: 350px;
+    text-align: center;
+    margin: 10px 50px;
+    
+} 
+#ff img{
+    width: 120px;
+    height: 120px;
+    border-radius: 500px;
+    margin: 100px 0;
+  
+    text-align: center;
+
+
+}
+#ff p{
+    margin-top: 40px;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+}
+#ff i{
+    margin-top: 5px;
+}
+#Coustemrs h1{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+ text-transform: capitalize;
+ letter-spacing: 1px;
+
+}
+#filename{
+    background: #f5deb3c2;
+    margin: 1px 0 0 0 ; 
+    
+}
+#sas{
+    width: 50px;
+    height: 50px;
+    background: #ba7900f7;
+   
+  border: none;
+cursor: pointer;
+position: fixed;
+bottom: 10px;
+right: 10px;
+border-radius: 30px;
+display: none;
+font-size: 18px;
+text-align: center;
+z-index: 10;
+}
